@@ -1,0 +1,56 @@
+@import 'meyer-reset.css';
+
+/* SETUP */
+* {
+    box-sizing: border-box;
+}
+
+.picture {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+p a, li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+header, footer, main {
+    border: 4px solid red;
+}
+
+section {
+    border: 4px solid lime;
+    
+}
+
+
+/* STRUCTURE */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.inner-column {
+    display: block;
+    border: 4px solid orange;
+    padding: 10px;
+}
+
